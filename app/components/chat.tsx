@@ -811,7 +811,7 @@ export function Chat() {
             ref={inputRef}
             className={styles["chat-input"]}
             // placeholder={Locale.Chat.Input(submitKey)}
-            placeholder='输入 / 即可获取各种提示样列文案           1:当共享API Key余额不足或者显示需要输入授权码时，可直接配置私有API Key独享使用，也可先配置共享授权码:123456 临时使用，授权码配置指导参考：www.chatgptvip.shop.   2:私有Key购买可访问www.chatgptvip.shop购买.   3:私有Key配置指导参考:www.chatgptvip.shop.   4:ChatGpt中文调教指南参考www.chatgptvip.shop.   5:若访问异常可访问www.chatgptvip.shop获取其他chatgpt访问点.'
+            placeholder='输入 / 即可获取各种提示样列文案           1:当共享API Key余额不足或者需要输入授权码时，可直接配置私有API Key独享使用，也可先配置临时共享授权码:123456使用，配置参考：www.chatgptvip.shop.   2:私有Key购买访问www.chatgptvip.shop.   3:私有Key配置参考:www.chatgptvip.shop.   4:ChatGpt中文调教指南参考www.chatgptvip.shop.   5:若访问异常可访问www.chatgptvip.shop获取其他chatgpt访问点.'
             onInput={(e) => onInput(e.currentTarget.value)}
             value={userInput}
             onKeyDown={onInputKeyDown}
