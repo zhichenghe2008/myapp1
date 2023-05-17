@@ -5,7 +5,7 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "未授权，请设置访问授权码:123456, 详细设置步骤参考 www.chatgptvip.shop.",
+      "未授权，请设置临时授权码:123456,或者填入你自己的API Key独享使用，详细设置步骤参考 www.chatgptvip.shop.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
