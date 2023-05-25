@@ -77,8 +77,8 @@ export function changeLang(lang: Lang) {
 }
 
 export default {
-  en: EN,
   cn: CN,
+  en: EN,
   tw: TW,
   es: ES,
   it: IT,
