@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGpt</div>
         <div className={styles["sidebar-sub-title"]}>
-          添加微信h285426134 若站点异常可及时发送新接入点
+          添加微信harrylee_007 若站点异常可及时发送新接入点
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -157,7 +157,7 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       <div className={styles["sidebar-bar-button"]}>
-        <a href="https://prm.chatgptvip.info" target="_blank">
+        <a href="https://prompt.chatgptvip.shop/" target="_blank">
           <IconButton
             icon={<GithubIcon />}
             text='ChatGpt提示词工具'
